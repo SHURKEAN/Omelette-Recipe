@@ -54,9 +54,29 @@ body{
 
 
 /* Ingredients */
-.Ingre h2{
+/* .Ingre h2{
     color: hsl(14, 45%, 36%);
 }
 .Ingre ul li{
     padding-left: 15px;
+} */
+
+.Ingre {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.Ingre li {
+    position: relative;
+    padding-left: 20px;
+}
+
+.Ingre li::before {
+    content: "•";
+    color: #FF6347;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 1;
 }
