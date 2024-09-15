@@ -13,6 +13,8 @@ body{
     gap: 2rem;
     line-height: 1.6;
 }
+
+/* Container */
 .container{
     background-color: white;
     width: 46em;
@@ -31,6 +33,9 @@ body{
     margin-top: 1.8rem;
     letter-spacing: 0.2rem;
 }
+
+
+/* Preparation */
 .prepar h3{
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -39,4 +44,19 @@ body{
     top: 8px;
     font-weight: bold;
     color: hsl(332, 51%, 32%);
+}
+.prepar ul li{
+    padding-left: 15px;
+}
+.prepar ul li b{
+    font-family: 'Young Serif', serif;
+}
+
+
+/* Ingredients */
+.Ingre h2{
+    color: hsl(14, 45%, 36%);
+}
+.Ingre ul li{
+    padding-left: 15px;
 }
