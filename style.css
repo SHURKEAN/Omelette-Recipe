@@ -36,6 +36,11 @@ body{
 
 
 /* Preparation */
+.prepar{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+    padding: 5px;
+}
 .prepar h3{
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -46,7 +51,16 @@ body{
     color: hsl(332, 51%, 32%);
 }
 .prepar ul li{
-    padding-left: 15px;
+    list-style-type: none;
+}
+.prepar li::before {
+    content: "•";
+    color: hsl(332, 51%, 32%);
+    font-size: 20px;
+    position: absolute;
+    left: 2px;
+    top: 0;
+    line-height: 1;
 }
 .prepar ul li b{
     font-family: 'Young Serif', serif;
@@ -64,19 +78,33 @@ body{
 .Ingre {
     list-style-type: none;
     padding-left: 0;
+    
 }
-
+.Ingre h2{
+    color: brown;
+}
+.Ingre ul{
+    padding: 0;
+}
 .Ingre li {
     position: relative;
     padding-left: 20px;
+    list-style-type: none;
 }
 
 .Ingre li::before {
     content: "•";
-    color: #FF6347;
+    color: brown;
     font-size: 20px;
     position: absolute;
-    left: 0;
+    left: 2px;
     top: 0;
     line-height: 1;
+}
+
+.Ingre li span{
+    padding-left: 25px;
+}
+.Ingre ul hr{
+    color: hsl(30, 54%, 90%);
 }
