@@ -157,12 +157,12 @@ td:last-child {
     text-align: right;
 }
 
-.highlight {
+.table tr th {
     color: #b85b2c;
     font-weight: bold;
 }
 
-tr td {
+tr {
     border-bottom: 1px solid #e5d0c0;
 }
 
